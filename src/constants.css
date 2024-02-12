@@ -1,0 +1,12 @@
+:root {
+    --tile-size: 100px;
+    --light-tile: #c7ccce;
+    --dark-tile: #1d1d1d;
+    --bg-color: #b0cbcf;
+}
+
+@media all and (max-width: 800px), (max-height: 800px) {
+    :root {
+        --tile-size: 50px;
+    }
+}
