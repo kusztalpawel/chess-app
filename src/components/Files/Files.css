@@ -4,4 +4,6 @@
     align-items: center;
     justify-content: space-around;
     height: calc(.2 * var(--tile-size));
+    user-select: none;
+    font-weight: 500;
 }

@@ -1,3 +1,18 @@
 img {
     width: var(--tile-size);
 }
+
+.piece {
+    width: var(--tile-size);
+    height: var(--tile-size);
+    background-size: 100%;
+}
+
+.piece:hover {
+    cursor: grab;
+}
+
+.piece:active {
+    cursor: grabbing;
+}
+
